@@ -1,8 +1,6 @@
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
+import '../widgetRename/todo_item.dart';
 import 'package:flutter/material.dart';
-import 'package:to_do_app/constrants/colors.dart';
+import '../constrants/colors.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -31,6 +29,7 @@ class _HomeState extends State<Home> {
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.w500)),
                   ),
+                  TodoItem()
                 ],
               ),
             )
